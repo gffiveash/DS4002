@@ -1,4 +1,4 @@
-Date,Location ,Median Sale Price,Median Sale Price MoM,Median Sale Price YoY,Homes Sold,Homes Sold MoM,Homes Sold YoY
+Date,Location,Median Sale Price,Median Sale Price MoM,Median Sale Price YoY,Homes Sold,Homes Sold MoM,Homes Sold YoY
 2020-01-01,"Venable, VA",480,,0.899,4,,0.333
 2020-01-01,"Belmont, VA",300,,-0.135,13,,0.167
 2020-02-01,"Venable, VA",416,-0.13,0.707,3,-0.33,-0.25
