@@ -17,8 +17,9 @@
     - Uncleaned CSV files for Charlottesville housing market and each neighborhood pairing scraped (4 CSVs total)
   - Merged_Final_Data.csv - Merged and cleaned CSV containing all housing market data, regionally and by neighborhood
 - **Scripts**
-  - 1_CleaningData.ipynb - script to clean each individual uncleanded data
-    - Output: cleaned individual data
+  - 2_CleaningData.ipynb - script to clean each neighborhood pair of uncleanded data
+    - Output: cleaned neighborhood data
+  - 3_Merging_Data.ipynb - script to combine all cleaned data (Charlottesville + neighborhood data)
 - **Output**
 
 ## Instructions for Reproducing the Results
