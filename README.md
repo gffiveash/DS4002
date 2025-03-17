@@ -7,6 +7,7 @@
   - *pandas* - for data manipulation and cleaning
   - *matplotlib* - to create data visualizations
   - *seaborn* - another visualization tool
+  - *numpy* - for numerical computation
 
 ## Map of Documentation
 - **Data**
