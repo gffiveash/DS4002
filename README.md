@@ -10,6 +10,11 @@
 
 ## Map of Documentation
 - **Data**
+  - **Cleaned Data**
+    - Cleaned CSV files for Charlottesville housing market and each neighborhood pairing scraped (4 CSVs total) - output from Script xyz
+  - **Uncleaned Data**
+    - Uncleaned CSV files for Charlottesville housing market and each neighborhood pairing scraped  for each product scraped (4 CSVs total)
+  - Merged_Final_Data.csv - Merged and cleaned CSV containing all housing market data, regionally and by neighborhood
 - **Scripts**
 - **Output**
 
