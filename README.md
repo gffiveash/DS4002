@@ -34,7 +34,9 @@
   - HeatMap_Prices_Venable.png
   - LineGraph_Housing_Prices.png
   - Monthly_Housing_Summary.csv
+  - References.md
   - ScatterPlot_HomesSoldvsPrices.png
   - ScatterPlot_Housing_Prices.png
+  - ScatterPlot_MedianSalePriceMonthly.png
 
 ## Instructions for Reproducing the Results
