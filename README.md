@@ -28,6 +28,14 @@
     - Output: BoxPlot_Median_Sales.png, HeatMap_Prices_Belmont.png, HeatMap_Prices_Cville.png, HeatMap_Prices_Fifeville.png, HeatMap_Prices_FrySprings.png, HeatMap_Prices_JeffPark.png, HeatMap_Prices_MarthaJeff.png, HeatMap_Prices_Venable.png, LineGraph_Housing_Prices.png, ScatterPlot_HomesSoldvsPrices.png, ScatterPlot_Housing_Prices.png, ScatterPlot_MedianSalePriceMonthly.png
 - **Output**
   - BoxPlot_Median_Sales.png
+  - Distribution_of_Dates.png
+  - Distribution_of_Homes_Sold.png
+  - Distribution_of_Homes_Sold_MoM.png
+  - Distribution_of_Homes_Sold_YoY.png
+  - Distribution_of_Location.png
+  - Distribution_of_Median_Sale_Price.png
+  - Distribution_of_Median_Sale_Price_MoM.png
+  - Distribution_of_Median_Sale_Price_YoY.png
   - HeatMap_Prices_Belmont.png
   - HeatMap_Prices_Cville.png
   - HeatMap_Prices_Fifeville.png
