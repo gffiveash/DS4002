@@ -8,6 +8,7 @@
   - *matplotlib* - to create data visualizations
   - *seaborn* - another visualization tool
   - *numpy* - for numerical computation
+  - *datetime* - to conduct time series analysis 
 
 ## Map of Documentation
 - **Data**
@@ -23,6 +24,8 @@
     - Output: cleaned neighborhood data (Cleaned_JeffersonParkFrySpring.csv etc.)
   - 3_Merging_Data.ipynb - script to combine all cleaned data (Charlottesville + neighborhood data)
     - Output: Merged_Final_data.csv
+  - 4_Exploratory_Graphs.ipynb - script for EDA and visualizations, in order to understand relationships between median housing price, seasonality, and neighborhood
+    - Output: BoxPlot_Median_Sales.png, HeatMap_Prices_Belmont.png, HeatMap_Prices_Cville.png, HeatMap_Prices_Fifeville.png, HeatMap_Prices_FrySprings.png, HeatMap_Prices_JeffPark.png, HeatMap_Prices_MarthaJeff.png, HeatMap_Prices_Venable.png, LineGraph_Housing_Prices.png, ScatterPlot_HomesSoldvsPrices.png, ScatterPlot_Housing_Prices.png, ScatterPlot_MedianSalePriceMonthly.png
 - **Output**
   - BoxPlot_Median_Sales.png
   - HeatMap_Prices_Belmont.png
