@@ -20,7 +20,7 @@
 - **Scripts**
   - 1_Charlottesville_Cleaning.ipynb - script to clean Charlottesville data
     - Output: Cleaned_Charlottesville.csv
-  - 2_Cleaning_Neighborhood_Data.ipynb - script to clean each neighborhood pair of uncleanded data (repeat for 3 neighborhood uncleaned csvs)
+  - 2_Cleaning_Neighborhood_Data.ipynb - script to clean each neighborhood pair of uncleaned data (repeat for 3 neighborhood uncleaned CSVs)
     - Output: cleaned neighborhood data (Cleaned_JeffersonParkFrySpring.csv etc.)
   - 3_Merging_Data.ipynb - script to combine all cleaned data (Charlottesville + neighborhood data)
     - Output: Merged_Final_data.csv
@@ -51,3 +51,7 @@
   - ScatterPlot_MedianSalePriceMonthly.png
 
 ## Instructions for Reproducing the Results
+1. Clean the Uncleaned_RedfinCharlottesvilleHousingMarket.csv file found in DATA/Uncleaned Data using 1_Charlottesville_Cleaning.ipynb
+2. Clean the 3 neighborhood datasets (Uncleaned_FifevilleMarthaJefferson.csv, Uncleaned_JeffersonParkFry Spring.csv, VenableData_Unclean.csv) found in DATA/Uncleaned Data using 2_Cleaning_Neighborhood_Data.ipynb (repeat for each neighborhood)
+3. Merge the 4 cleaned datasets using the 3_Merging_Data.ipynb
+4. Conduct exploratory data analysis, creating visualizations such as scatterplots, boxplots, and heat maps, using the 4_Exploratory_Graphs.ipynb script
