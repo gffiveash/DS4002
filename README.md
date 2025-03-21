@@ -8,7 +8,8 @@
   - *matplotlib* - to create data visualizations
   - *seaborn* - another visualization tool
   - *numpy* - for numerical computation
-  - *datetime* - to conduct time series analysis 
+  - *datetime* - to conduct time series analysis
+- **Platform**: Mac
 
 ## Map of Documentation
 - **Data**
@@ -27,9 +28,9 @@
     - Output: Merged_Final_data.csv
   - 4_Exploratory_Graphs.ipynb - script for EDA and visualizations, in order to understand relationships between median housing price, seasonality, and neighborhood
     - Output: BoxPlot_Median_Sales.png, HeatMap_Prices_Belmont.png, HeatMap_Prices_Cville.png, HeatMap_Prices_Fifeville.png, HeatMap_Prices_FrySprings.png, HeatMap_Prices_JeffPark.png, HeatMap_Prices_MarthaJeff.png, HeatMap_Prices_Venable.png, LineGraph_Housing_Prices.png, ScatterPlot_HomesSoldvsPrices.png, ScatterPlot_Housing_Prices.png, ScatterPlot_MedianSalePriceMonthly.png
-    - 5_Data_Appendix.ipynb - script to create data appendix:
+  - 5_Data_Appendix.ipynb - script to create data appendix:
       - Output: DataAppendix.pdf
-    - 6_Cluster_Analysis.ipynb - Script to anaylize relationships and trends between home prices and months/seasons
+  - 6_Cluster_Analysis.ipynb - Script to anaylize relationships and trends between home prices and months/seasons
       - Output: Seasonal_Clustering_of_Median_Home_Prices.png
 - **Output**
   - BoxPlot_Median_Sales.png
