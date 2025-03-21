@@ -17,6 +17,7 @@
   - **Uncleaned Data**
     - Uncleaned CSV files for Charlottesville housing market and each neighborhood pairing scraped (4 CSVs total)
   - Merged_Final_Data.csv - Merged and cleaned CSV containing all housing market data, regionally and by neighborhood
+  - DataAppendix.pdf
 - **Scripts**
   - 1_Charlottesville_Cleaning.ipynb - script to clean Charlottesville data
     - Output: Cleaned_Charlottesville.csv
@@ -26,6 +27,10 @@
     - Output: Merged_Final_data.csv
   - 4_Exploratory_Graphs.ipynb - script for EDA and visualizations, in order to understand relationships between median housing price, seasonality, and neighborhood
     - Output: BoxPlot_Median_Sales.png, HeatMap_Prices_Belmont.png, HeatMap_Prices_Cville.png, HeatMap_Prices_Fifeville.png, HeatMap_Prices_FrySprings.png, HeatMap_Prices_JeffPark.png, HeatMap_Prices_MarthaJeff.png, HeatMap_Prices_Venable.png, LineGraph_Housing_Prices.png, ScatterPlot_HomesSoldvsPrices.png, ScatterPlot_Housing_Prices.png, ScatterPlot_MedianSalePriceMonthly.png
+    - 5_Data_Appendix.ipynb - script to create data appendix:
+      - Output: DataAppendix.pdf
+    - 6_Cluster_Analysis.ipynb - Script to anaylize relationships and trends between home prices and months/seasons
+      - Output: Seasonal_Clustering_of_Median_Home_Prices.png
 - **Output**
   - BoxPlot_Median_Sales.png
   - Distribution_of_Dates.png
@@ -49,9 +54,12 @@
   - ScatterPlot_HomesSoldvsPrices.png
   - ScatterPlot_Housing_Prices.png
   - ScatterPlot_MedianSalePriceMonthly.png
+  - Seasonal_Clustering_of_Median_Home_Prices.png
 
 ## Instructions for Reproducing the Results
 1. Clean the Uncleaned_RedfinCharlottesvilleHousingMarket.csv file found in DATA/Uncleaned Data using 1_Charlottesville_Cleaning.ipynb
 2. Clean the 3 neighborhood datasets (Uncleaned_FifevilleMarthaJefferson.csv, Uncleaned_JeffersonParkFry Spring.csv, VenableData_Unclean.csv) found in DATA/Uncleaned Data using 2_Cleaning_Neighborhood_Data.ipynb (repeat for each neighborhood)
 3. Merge the 4 cleaned datasets using the 3_Merging_Data.ipynb
 4. Conduct exploratory data analysis, creating visualizations such as scatterplots, boxplots, and heat maps, using the 4_Exploratory_Graphs.ipynb script
+5. Anaylize relationships and trends between median home sale prices and seasons using 6_Cluster_Analysis.ipynb
+6. Test against hypothesis and draw conclusions
