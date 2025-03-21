@@ -30,7 +30,8 @@
     - Output: BoxPlot_Median_Sales.png, HeatMap_Prices_Belmont.png, HeatMap_Prices_Cville.png, HeatMap_Prices_Fifeville.png, HeatMap_Prices_FrySprings.png, HeatMap_Prices_JeffPark.png, HeatMap_Prices_MarthaJeff.png, HeatMap_Prices_Venable.png, LineGraph_Housing_Prices.png, ScatterPlot_HomesSoldvsPrices.png, ScatterPlot_Housing_Prices.png, ScatterPlot_MedianSalePriceMonthly.png
   - 5_Data_Appendix.ipynb - script to create data appendix:
       - Output: DataAppendix.pdf
-  - 6_Cluster_Analysis.ipynb - Script to anaylize relationships and trends between home prices and months/seasons
+  - 6_Linear_Regression.ipynb - script to create a linear regression model, which gave us insight into the relationship between median housing prices, seasonality, and neighborhoods
+  - 7_Cluster_Analysis.ipynb - script to analyze relationships and trends between median housing prices and months/seasons
       - Output: Seasonal_Clustering_of_Median_Home_Prices.png
 - **Output**
   - BoxPlot_Median_Sales.png
@@ -62,5 +63,6 @@
 2. Clean the 3 neighborhood datasets (Uncleaned_FifevilleMarthaJefferson.csv, Uncleaned_JeffersonParkFry Spring.csv, VenableData_Unclean.csv) found in DATA/Uncleaned Data using 2_Cleaning_Neighborhood_Data.ipynb (repeat for each neighborhood)
 3. Merge the 4 cleaned datasets using the 3_Merging_Data.ipynb
 4. Conduct exploratory data analysis, creating visualizations such as scatterplots, boxplots, and heat maps, using the 4_Exploratory_Graphs.ipynb script
-5. Anaylize relationships and trends between median home sale prices and seasons using 6_Cluster_Analysis.ipynb
-6. Test against hypothesis and draw conclusions
+5. Create a linear regression model using 6_Linear_Regression.ipynb, and make predictions on future median housing prices, whether for Charlottesville regionally or by neighborhood
+6. Analyze relationships and trends between median home sale prices and seasons using 7_Cluster_Analysis.ipynb
+7. Test against our hypothesis and draw conclusions
