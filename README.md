@@ -31,8 +31,11 @@
   - 5_Data_Appendix.ipynb - script to create data appendix:
       - Output: DataAppendix.pdf
   - 6_Linear_Regression.ipynb - script to create a linear regression model, which gave us insight into the relationship between median housing prices, seasonality, and neighborhoods
-  - 7_Cluster_Analysis.ipynb - script to analyze relationships and trends between median housing prices and months/seasons
+      - Output: Actual_vs_Predicted_Cville_Median_Housing_Prices.png
+      - Output: Predicted_Median_Housing_Prices_by_Month_in_Cville.png
+  - 7_Cluster_Analysis_and_SARIMA.ipynb - script to analyze relationships and trends between median housing prices and months/seasons using clustering analysis, as well as script dedicated to SARIMA model
       - Output: Seasonal_Clustering_of_Median_Home_Prices.png
+      - Output: SARIMA_Forecast_of_Cville_Median_Sale_Price.png
 - **Output**
   - Actual_vs_Predicted_Cville_Median_Housing_Prices.png
   - BoxPlot_Median_Sales.png
