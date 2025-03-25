@@ -34,6 +34,7 @@
   - 7_Cluster_Analysis.ipynb - script to analyze relationships and trends between median housing prices and months/seasons
       - Output: Seasonal_Clustering_of_Median_Home_Prices.png
 - **Output**
+  - Actual_vs_Predicted_Cville_Median_Housing_Prices.png
   - BoxPlot_Median_Sales.png
   - Distribution_of_Dates.png
   - Distribution_of_Homes_Sold.png
@@ -50,9 +51,14 @@
   - HeatMap_Prices_JeffPark.png
   - HeatMap_Prices_MarthaJeff.png
   - HeatMap_Prices_Venable.png
+  - Homes_Sold_vs_Median_Home_Prices.png
   - LineGraph_Housing_Prices.png
+  - Median_Sale_Prices_Across_All_Locations.png
   - Monthly_Housing_Summary.csv
+  - Neighborhood_Clustering_by_Median_Home_Prices.png
+  - Predicted_Median_Housing_Prices_by_Month_in_Cville.png
   - References.md
+  - SARIMA_Forecast_of_Cville_Median_Sale_Price.png
   - ScatterPlot_HomesSoldvsPrices.png
   - ScatterPlot_Housing_Prices.png
   - ScatterPlot_MedianSalePriceMonthly.png
