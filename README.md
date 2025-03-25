@@ -9,6 +9,8 @@
   - *seaborn* - another visualization tool
   - *numpy* - for numerical computation
   - *datetime* - to conduct time series analysis
+  - *sklearn* - for linear regression and clusterings
+  - *SARIMAX* - for SARIMA model analysis
 - **Platform**: Mac
 
 ## Map of Documentation
